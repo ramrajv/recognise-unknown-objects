@@ -146,6 +146,7 @@ sns.scatterplot(data=data, x='tsne1', y='tsne2', hue='label', style='autoencoder
 plt.title("t-SNE Visualization of Claims with Autoencoder Detection")
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/b656638d-0715-4711-b48b-b94d79ef93f0)
 
 ---
 
