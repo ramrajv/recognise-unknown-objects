@@ -131,7 +131,17 @@ print(pd.crosstab(data['label'], data['autoencoder_anomaly']))
 print("\nKMeans Outlier Detection vs Ground Truth")
 print(pd.crosstab(data['label'], data['kmeans_outlier']))
 ```
+Autoencoder Detection vs Ground Truth
+autoencoder_anomaly  False  True 
+label                            
+known                  475     25
+unknown                  0     20
 
+KMeans Outlier Detection vs Ground Truth
+kmeans_outlier  False  True 
+label                       
+known             500      0
+unknown             0     20
 ---
 
 ### 📊 Optional: Visualize in 2D with t-SNE
